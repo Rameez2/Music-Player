@@ -1,0 +1,276 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.container{
+    height: 700px;
+    width: 460px;
+    margin-top: 96px;
+    margin-left: 539px;
+    margin-bottom: 300px;
+    margin-right: 300px;
+    background-color: transparent;
+    box-shadow: 0 0 15px grey;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    position: fixed;
+    animation: cont 8s linear infinite;
+}
+
+@keyframes cont {
+
+    0%{
+        box-shadow: 0 0 35px white;
+    }
+    5%{
+        box-shadow: 0 0 35px blueviolet;
+
+    }
+
+    10%{
+        
+        box-shadow: 0 0 35px blue;
+    }
+
+    15%{
+        
+        box-shadow: 0 0 35px red;
+    }
+    20%{
+       box-shadow: 0 0 35px yellow;
+
+    } 25%{
+        
+ box-shadow: 0 0 35px royalblue;
+    } 30%{
+     
+box-shadow: 0 0 35px #FF00FF;
+    } 35%{
+      box-shadow: 0 0 35px rgb(255,99,71);
+
+    } 40%{
+        box-shadow: 0 0 35px rgb(0,128,128);
+
+    } 45%{
+        box-shadow: 0 0 35px rgb(0,0,255);
+
+    } 50%{
+        
+box-shadow: 0 0 35px rgb(255,255,0);
+    } 55%{
+        
+  box-shadow: 0 0 35px rgb(255,0,255);
+    } 60%{
+        
+   box-shadow: 0 0 35px rgb(0,255,255);
+    } 65%{
+       
+   box-shadow: 0 0 35px red;
+    } 70%{
+        box-shadow: 0 0 35px #00CED1;
+
+    } 75%{
+       
+ box-shadow: 0 0 35px #FFDEAD;
+    } 80%{
+       
+ box-shadow: 0 0 35px #DC143C;
+    } 85%{
+        box-shadow: 0 0 35px #0000FF;
+
+    } 90%{
+        box-shadow: 0 0 35px #00FF00;
+
+    } 95%{
+      box-shadow: 0 0 35px #808080;
+
+    }
+
+    100%{
+        box-shadow: 0 0 35px green;
+    }
+
+}
+
+.image1{
+
+    position: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%; 
+    filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size: auto;
+
+
+}
+
+
+.container:hover{
+
+   box-shadow: 0 0 15px rgb(0, 233, 250);
+
+}
+/*   IMAGE */
+
+.image{
+    height: 407px;
+    width: 407px;
+    border-radius: 50%;
+    margin-top: 14px;
+    animation: frames 8s linear infinite;
+}
+
+@keyframes frames{
+
+    0%{transform: rotate(0deg);
+        box-shadow: 0 0 35px blue;
+    }
+    5%{
+        box-shadow: 0 0 35px red;
+
+    }
+
+    10%{
+        box-shadow: 0 0 35px white;
+
+    }
+
+    15%{
+        box-shadow: 0 0 35px blueviolet;
+
+    }
+    20%{
+        box-shadow: 0 0 35px royalblue;
+
+    } 25%{
+        box-shadow: 0 0 35px yellow;
+
+    } 30%{
+        box-shadow: 0 0 35px rgb(0,255,255);
+
+    } 35%{
+        box-shadow: 0 0 35px rgb(255,0,255);
+
+    } 40%{
+        box-shadow: 0 0 35px rgb(255,255,0);
+
+    } 45%{
+        box-shadow: 0 0 35px rgb(0,0,255);
+
+    } 50%{
+        box-shadow: 0 0 35px rgb(0,128,128);
+
+    } 55%{
+        box-shadow: 0 0 35px rgb(255,99,71);
+
+    } 60%{
+        box-shadow: 0 0 35px #FF00FF;
+
+    } 65%{
+        box-shadow: 0 0 35px #808080;
+
+    } 70%{
+        box-shadow: 0 0 35px #00CED1;
+
+    } 75%{
+        box-shadow: 0 0 35px #DC143C;
+
+    } 80%{
+        box-shadow: 0 0 35px #00FF00;
+
+    } 85%{
+        box-shadow: 0 0 35px #0000FF;
+
+    } 90%{
+        box-shadow: 0 0 35px #FFDEAD;
+
+    } 95%{
+        box-shadow: 0 0 35px red;
+
+    }
+
+    100%{
+        transform: rotate(360deg);
+        box-shadow: 0 0 35px green;
+    }
+
+}
+
+
+
+
+
+h3{
+    font-family: Gill Sans, sans-serif;
+    color: rgba(255, 0, 0);
+    margin-top: 23px;
+    margin-bottom: 3px;
+    font-size: 34px;
+}
+
+p{
+    color: #fff;
+    font-family: cursive;
+    margin-top: 5px;
+
+
+}
+
+.seek-bar{
+
+    height: 7px;
+    width: 292px;
+    background-color: grey;
+    border-radius: 50px;
+    margin-left:94px ;
+    cursor: pointer;
+}
+
+#fill{
+    width: 10px;
+    height: 7px;
+    background-color: royalblue;
+    border-radius: 20px;
+
+
+}
+
+
+button{
+    color: white;
+    background-color: transparent;
+    width: 73px;
+    height: 70px;
+    margin: 2px;
+    font-size: 29px;
+    border: none;
+    margin-top: 25px;
+
+}
+
+
+.Play{
+    border: 4px solid #fff;
+    padding: 15px 22px;
+    border-radius: 50%;
+
+}
+
+
+.rtw{
+    opacity: 0.5;
+
+}
+
+.rnd{
+    opacity: 0.5;
+}
+
+
+
